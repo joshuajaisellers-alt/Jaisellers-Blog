@@ -9,8 +9,8 @@
 
     body {
       font-family: Georgia, serif;
-      background: #f5f3ee;
-      color: #1a1a2e;
+      background: #1e1e1e;
+      color: #ede8e0;
       margin: 0;
       padding: 2rem 1.25rem 4rem;
       line-height: 1.7;
@@ -20,9 +20,10 @@
     .page {
       max-width: 720px;
       margin: 0 auto;
-      border: 2px solid #1a1a2e;
+      border: 2px solid #c0392b;
       padding: 3rem 2.5rem 2.5rem;
       position: relative;
+      background: #252525;
     }
 
     /* Blueprint corner ornaments */
@@ -32,7 +33,7 @@
       position: absolute;
       width: 30px;
       height: 30px;
-      border-color: #b8972e;
+      border-color: #c9a227;
       border-style: solid;
     }
     .page::before {
@@ -47,7 +48,7 @@
       position: absolute;
       width: 30px;
       height: 30px;
-      border-color: #b8972e;
+      border-color: #c9a227;
       border-style: solid;
     }
     .corner-bl { bottom: 8px; left: 8px; border-width: 0 0 2px 2px; }
@@ -58,7 +59,7 @@
       text-align: center;
       font-size: 2.2rem;
       font-weight: bold;
-      color: #1a1a2e;
+      color: #ede8e0;
       letter-spacing: -1px;
       margin-bottom: 0.5rem;
       line-height: 1;
@@ -69,7 +70,7 @@
       text-align: center;
       font-size: 2rem;
       font-weight: bold;
-      color: #1a1a2e;
+      color: #ede8e0;
       letter-spacing: 0.03em;
       margin: 0.5rem 0 0.3rem;
       font-variant: small-caps;
@@ -78,7 +79,7 @@
     .subtitle {
       text-align: center;
       font-size: 0.85rem;
-      color: #b8972e;
+      color: #c9a227;
       letter-spacing: 0.25em;
       text-transform: uppercase;
       margin-bottom: 2.5rem;
@@ -109,7 +110,7 @@
     .arrow {
       text-align: center;
       font-size: 1.6rem;
-      color: #1a1a2e;
+      color: #c9a227;
       line-height: 1;
       margin: 0;
     }
@@ -121,19 +122,19 @@
     }
 
     .pillar--story {
-      border-color: #b8972e;
-      background: transparent;
+      border-color: #c9a227;
+      background: rgba(192, 57, 43, 0.12);
       margin-bottom: 0;
     }
 
     .pillar--strategy {
-      border-color: #b8972e;
-      background: #faf9f6;
+      border-color: #c0392b;
+      background: #2a2a2a;
     }
 
     .pillar--structure {
-      border-color: #1a1a2e;
-      background: #eef0f5;
+      border-color: #c0392b;
+      background: #2e2e2e;
     }
 
     .pillar-label {
@@ -144,20 +145,20 @@
       margin: 0 0 0.25rem;
     }
 
-    .pillar--story .pillar-label   { color: #b8972e; }
-    .pillar--strategy .pillar-label { color: #1a1a2e; }
-    .pillar--structure .pillar-label { color: #1a1a2e; }
+    .pillar--story .pillar-label   { color: #c9a227; }
+    .pillar--strategy .pillar-label { color: #c0392b; }
+    .pillar--structure .pillar-label { color: #c0392b; }
 
     .pillar-tagline {
       font-size: 1rem;
       font-style: italic;
       margin: 0 0 0.6rem;
-      color: #1a1a2e;
+      color: #ede8e0;
     }
 
     .pillar-items {
       font-size: 0.88rem;
-      color: #3a3a4a;
+      color: #bdb8b0;
       line-height: 1.8;
     }
     .pillar-items .dot { margin: 0 0.3em; }
@@ -168,9 +169,9 @@
       margin: 2.5rem auto 0;
       text-align: center;
       font-size: 0.95rem;
-      color: #1a1a2e;
+      color: #ede8e0;
       line-height: 1.8;
-      border-top: 1px solid #c8bfa0;
+      border-top: 1px solid #c0392b;
       padding-top: 1.5rem;
     }
 
@@ -180,7 +181,7 @@
       text-align: center;
       margin-top: 2rem;
       font-size: 0.85rem;
-      color: #b8972e;
+      color: #c9a227;
       text-decoration: none;
       letter-spacing: 0.08em;
     }
@@ -207,15 +208,15 @@
     <div class="arch-wrapper">
       <svg class="arch-svg" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <!-- outer arch -->
-        <path d="M30,115 L30,60 Q30,10 200,10 Q370,10 370,60 L370,115" stroke="#b8972e" stroke-width="2" fill="none"/>
+        <path d="M30,115 L30,60 Q30,10 200,10 Q370,10 370,60 L370,115" stroke="#c9a227" stroke-width="2" fill="none"/>
         <!-- inner arch -->
-        <path d="M55,115 L55,65 Q55,35 200,35 Q345,35 345,65 L345,115" stroke="#b8972e" stroke-width="1.5" fill="none"/>
+        <path d="M55,115 L55,65 Q55,35 200,35 Q345,35 345,65 L345,115" stroke="#c9a227" stroke-width="1.5" fill="none"/>
         <!-- columns left -->
-        <rect x="28" y="80" width="14" height="35" stroke="#b8972e" stroke-width="1.5" fill="none"/>
+        <rect x="28" y="80" width="14" height="35" stroke="#c9a227" stroke-width="1.5" fill="none"/>
         <!-- columns right -->
-        <rect x="358" y="80" width="14" height="35" stroke="#b8972e" stroke-width="1.5" fill="none"/>
+        <rect x="358" y="80" width="14" height="35" stroke="#c9a227" stroke-width="1.5" fill="none"/>
         <!-- base line -->
-        <line x1="10" y1="115" x2="390" y2="115" stroke="#1a1a2e" stroke-width="1.5"/>
+        <line x1="10" y1="115" x2="390" y2="115" stroke="#c0392b" stroke-width="1.5"/>
       </svg>
     </div>
 
